@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Adaora's Fashion Website – Worst UI Demo
 
-## Getting Started
+This project is a demonstration of **bad UI practices**, created as part of a class assignment to design the worst user interface imaginable. The site features 8 interactive elements that intentionally break modern UI/UX standards.  
 
-First, run the development server:
+This project is also themed as **Adaora's Fashion Website** with a focus on pink aesthetics (but in a poorly implemented way).  
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## **Live Demo**
+The live site is hosted on [Vercel](#) (add your live Vercel link here).
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## **Why This UI is Terrible**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 1. **Full-Screen Modal**
+- Appears on page load and blocks interaction until closed.  
+- **Why it's bad:** Interrupts the user immediately without providing useful information.  
 
-## Learn More
+### 2. **Auto-Playing Music**
+- Music starts automatically and loops endlessly.  
+- **Why it's bad:** Distracting and provides no option to pause.  
 
-To learn more about Next.js, take a look at the following resources:
+### 3. **Hidden Navigation Menu**
+- Navigation is hidden behind a small button with no labels.  
+- **Why it's bad:** Makes navigation unintuitive and hard to find.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 4. **Unclear Links**
+- Text links like "Click here" with no context.  
+- **Why it's bad:** Users cannot predict where the link will take them.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 5. **Pop-Up Alerts**
+- Multiple alerts appear, disrupting the browsing experience.  
+- **Why it's bad:** Forces users to click through pop-ups to continue.  
 
-## Deploy on Vercel
+### 6. **Poor Color Contrast**
+- Bright yellow text on a white background.  
+- **Why it's bad:** Strains the eyes and makes text difficult to read.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 7. **Unresponsive Design**
+- Fixed-width layout that breaks on smaller screens.  
+- **Why it's bad:** Provides a poor experience for mobile users.  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 8. **Buttons That Do Nothing**
+- Buttons that do not perform any action.  
+- **Why it's bad:** Frustrates users expecting functionality.
+
+---
+
+## **How to Run Locally**
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<your-username>/adaora-fashion-worst-ui.git
